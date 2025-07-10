@@ -14,8 +14,8 @@ _✨ 基于 [NapCat](https://github.com/NapNeko/NapCatQQ) 以及  [OneBot](https
 </div>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Mrs4s/go-cqhttp/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Mrs4s/go-cqhttp" alt="license">
+  <a href="https://raw.githubusercontent.com/Zion7826/OwQC/master/LICENSE">
+    <img src="https://img.shields.io/github/license/Zion7826/OwQC" alt="license">
   </a>
   <a href="https://github.com/Mrs4s/go-cqhttp/releases">
     <img src="https://img.shields.io/github/v/release/Mrs4s/go-cqhttp?color=blueviolet&include_prereleases" alt="release">
