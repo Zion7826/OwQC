@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ishkong.github.io/go-cqhttp-docs/">
-    <img src="icon.png" width="200" height="200" alt="go-cqhttp">
+    <img src="icon.png" width="200" height="200" alt="OwQC">
   </a>
 </p>
 
@@ -8,7 +8,7 @@
 
 # go-cqhttp
 
-_✨ 基于 [Mirai](https://github.com/mamoe/mirai) 以及 [MiraiGo](https://github.com/Mrs4s/MiraiGo) 的 [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) Golang 原生实现 ✨_  
+_✨ 基于 [NapCat](https://github.com/NapNeko/NapCatQQ) 以及  [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) E语言 原生实现 ✨_  
 
 
 </div>
