@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://ishkong.github.io/go-cqhttp-docs/">
+  <a href="https://github.com/Zion7826/OwQC">
     <img src="icon.png" width="200" height="200" alt="OwQC">
   </a>
 </p>
 
 <div align="center">
 
-# go-cqhttp
+# OwQC - 基于NapCat的插件中转站
 
 _✨ 基于 [NapCat](https://github.com/NapNeko/NapCatQQ) 以及  [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) E语言 原生实现 ✨_  
 
