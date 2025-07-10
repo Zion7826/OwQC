@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Zion7826/OwQC">
-    <img src="icon.png" width="200" height="200" alt="OwQC">
+    <img src="/icon.png" width="200" height="200" alt="OwQC">
   </a>
 </p>
 
