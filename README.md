@@ -27,45 +27,24 @@ _✨ 基于 [NapCat](https://github.com/NapNeko/NapCatQQ) 以及  [OneBot](https
 </p>
 
 <p align="center">
-  <a href="https://docs.go-cqhttp.org/">文档</a>
+  <a href="https://doc.icofun.cn/">文档</a>
   ·
-  <a href="https://github.com/Mrs4s/go-cqhttp/releases">下载</a>
+  <a href="https://bbs.icofun.cn/forum.php?mod=forumdisplay&fid=18&filter=sortid&sortid=1">下载</a>
   ·
-  <a href="https://docs.go-cqhttp.org/guide/quick_start.html">开始使用</a>
-  ·
-  <a href="https://github.com/Mrs4s/go-cqhttp/blob/master/CONTRIBUTING.md">参与贡献</a>
+  <a href="https://doc.icofun.cnl">开始使用</a>
+
 </p>
 
-## 重要信息
-由于QQ官方针对协议库的围追堵截, 不断更新加密方案, 我们已无力继续维护此项目.
-建议Bot开发者尽快迁移至无头NTQQ项目 -> https://github.com/Mrs4s/go-cqhttp/issues/2471
 
 ## 兼容性
-go-cqhttp 兼容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展，详情请看 go-cqhttp 的文档。
+NapCat 兼容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展，详情请看 NapCat 的文档。
 
-### 接口
 
-- [x] HTTP API
-- [x] 反向 HTTP POST
-- [x] 正向 WebSocket
-- [x] 反向 WebSocket
-
-### 拓展支持
-
-> 拓展 API 可前往 [文档](docs/cqhttp.md) 查看
-
-- [x] HTTP POST 多点上报
-- [x] 反向 WS 多点连接
-- [x] 修改群名
-- [x] 消息撤回事件
-- [x] 解析/发送 回复消息
-- [x] 解析/发送 合并转发
-- [x] 使用代理请求网络图片
 
 ### 实现
 
 <details>
-<summary>已实现 CQ 码</summary>
+<summary>差一点实现 CQ 码</summary>
 
 #### 符合 OneBot 标准的 CQ 码
 
@@ -96,23 +75,7 @@ go-cqhttp 兼容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大�
 [xml 消息]: https://github.com/botuniverse/onebot-11/blob/master/message/segment.md#xml-%E6%B6%88%E6%81%AF
 [json 消息]: https://github.com/botuniverse/onebot-11/blob/master/message/segment.md#json-%E6%B6%88%E6%81%AF
 
-#### 拓展 CQ 码及与 OneBot 标准有略微差异的 CQ 码
 
-| 拓展 CQ 码     | 功能                              |
-| -------------- | --------------------------------- |
-| [CQ:image]     | [图片]                            |
-| [CQ:redbag]    | [红包]                            |
-| [CQ:poke]      | [戳一戳]                          |
-| [CQ:node]      | [合并转发消息节点]                |
-| [CQ:cardimage] | [一种 xml 的图片消息（装逼大图）] |
-| [CQ:tts]       | [文本转语音]                      |
-
-[图片]: https://docs.go-cqhttp.org/cqcode/#%E5%9B%BE%E7%89%87
-[红包]: https://docs.go-cqhttp.org/cqcode/#%E7%BA%A2%E5%8C%85
-[戳一戳]: https://docs.go-cqhttp.org/cqcode/#%E6%88%B3%E4%B8%80%E6%88%B3
-[合并转发消息节点]: https://docs.go-cqhttp.org/cqcode/#%E5%90%88%E5%B9%B6%E8%BD%AC%E5%8F%91%E6%B6%88%E6%81%AF%E8%8A%82%E7%82%B9
-[一种 xml 的图片消息（装逼大图）]: https://docs.go-cqhttp.org/cqcode/#cardimage
-[文本转语音]: https://docs.go-cqhttp.org/cqcode/#%E6%96%87%E6%9C%AC%E8%BD%AC%E8%AF%AD%E9%9F%B3
 
 </details>
 
@@ -280,6 +243,4 @@ go-cqhttp 兼容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大�
 > 请注意, 开发者并没有义务回复您的问题. 您应该具备基本的提问技巧。  
 > 有关如何提问，请阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
 
-## 性能
 
-在关闭数据库的情况下, 加载 25 个好友 128 个群运行 24 小时后内存使用为 15MB 左右. 开启数据库后内存使用将根据消息量增加 10-20MB, 如果系统内
